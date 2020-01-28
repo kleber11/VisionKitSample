@@ -56,15 +56,39 @@
 		DB321C6823DA94C9009639A7 /* TextRecognizingSample */ = {
 			isa = PBXGroup;
 			children = (
-				DB321C6923DA94C9009639A7 /* AppDelegate.swift */,
-				DB321C6B23DA94C9009639A7 /* SceneDelegate.swift */,
+				DB89BBE123E0825E0003698A /* App */,
 				DB321C6D23DA94C9009639A7 /* ViewController.swift */,
-				DB321C6F23DA94C9009639A7 /* Main.storyboard */,
-				DB321C7223DA94CA009639A7 /* Assets.xcassets */,
-				DB321C7423DA94CA009639A7 /* LaunchScreen.storyboard */,
-				DB321C7723DA94CA009639A7 /* Info.plist */,
+				DB89BBE223E0826B0003698A /* Supporting Files */,
 			);
 			path = TextRecognizingSample;
+			sourceTree = "<group>";
+		};
+		DB89BBE123E0825E0003698A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DB321C6923DA94C9009639A7 /* AppDelegate.swift */,
+				DB321C6B23DA94C9009639A7 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DB89BBE223E0826B0003698A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB89BBE323E082770003698A /* UI */,
+				DB321C7223DA94CA009639A7 /* Assets.xcassets */,
+				DB321C7723DA94CA009639A7 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB89BBE323E082770003698A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DB321C6F23DA94C9009639A7 /* Main.storyboard */,
+				DB321C7423DA94CA009639A7 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +309,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TextRecognizingSample/Info.plist;
+				DEVELOPMENT_TEAM = 9XMT5K89X3;
+				INFOPLIST_FILE = "TextRecognizingSample/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +327,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TextRecognizingSample/Info.plist;
+				DEVELOPMENT_TEAM = 9XMT5K89X3;
+				INFOPLIST_FILE = "TextRecognizingSample/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
